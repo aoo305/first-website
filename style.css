@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(167, 196, 6);
+}
+#container{
+background-color: white;
+height: 800px;
+width: 600px;
+background-position: center;
+left: 30%;
+position: absolute;
+margin : 3%;
+border-radius: 8%;
+border-bottom-style:outset;
+border-right-style: outset;
+border-bottom-width: 10px;
+border-right-width: 10px;
+border-color: black;
+}
+#picture{
+    background-image: url("friends-season-6-poster.jpg");
+    height: 400px;
+    width: 550px;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+button{
+    margin: 5%;
+    
+    border: none;
+    background-color: rgb(167, 196, 6);
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#published{
+    margin: 1% 5%;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#html{
+    margin: 1% 5%;
+    font-weight: 700; 
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#writeup{
+    margin: 1% 5%;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.picture1{
+    background-image: url("friends-season-6-poster.jpg");
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+    padding: 15px;
+}
+.mydiv{
+    float: left;
+    padding: 50px 10px;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+
